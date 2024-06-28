@@ -10,19 +10,19 @@ form.addEventListener('submit', function (e) {
     const altura = Number(inputAltura.value);
 
     if (!peso) {
-        setResultado('Peso invÃ¡lido', false);
+        setResultado('Peso Invalido', false);
         return;
     }
 
     if (!altura) {
-        setResultado('Altura invÃ¡lida', false);
+        setResultado('Altura Invalido', false);
         return;
     }
 
     const imc = getImc(peso, altura);
     const nivelImc = getNivelImc(imc);
 
-    const msg = `Seu IMC Ã© ${imc} (${nivelImc}).`;
+    const msg = `Seu IMC é ${imc} (${nivelImc}).`;
 
     setResultado(msg, true);
 });
