@@ -11,8 +11,8 @@ Interface Intuitiva: Interface de usuário amigável e fácil de usar.<br>
 Tecnologias Utilizadas
 
 HTML: Estruturação da página da calculadora.<br>
-CSS: Estilização e design responsivo para diferentes dispositivos.<br>
-JavaScript: Lógica de cálculo do IMC e manipulação do DOM.<br>
+CSS: Estilização.<br>
+JavaScript: Lógica de cálculo do IMC.<br>
 
 ![image](https://github.com/vieiraadev/calculator_imc_Js/assets/164572708/faa7e5ee-b2ce-414f-841b-2f562ebaf048)
 
